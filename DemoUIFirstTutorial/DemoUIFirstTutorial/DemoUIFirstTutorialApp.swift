@@ -11,7 +11,7 @@ import SwiftUI
 struct DemoUIFirstTutorialApp: App {
     var body: some Scene {
         WindowGroup {
-            Dividers()
+            ZStackPadding()
         }
     }
 }

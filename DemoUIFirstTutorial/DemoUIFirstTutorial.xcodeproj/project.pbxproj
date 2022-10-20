@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711BA73F28FF8EC600C86CF4 /* HStackVStackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711BA73E28FF8EC600C86CF4 /* HStackVStackSpacer.swift */; };
+		713176522900DF41005D34E8 /* ZStackPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713176512900DF41005D34E8 /* ZStackPadding.swift */; };
 		7140FB2228CEBFD0007B5DC6 /* DemoUIFirstTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140FB2128CEBFD0007B5DC6 /* DemoUIFirstTutorialApp.swift */; };
 		7140FB2428CEBFD0007B5DC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140FB2328CEBFD0007B5DC6 /* ContentView.swift */; };
 		7140FB2628CEBFD1007B5DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7140FB2528CEBFD1007B5DC6 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		711BA73E28FF8EC600C86CF4 /* HStackVStackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackVStackSpacer.swift; sourceTree = "<group>"; };
+		713176512900DF41005D34E8 /* ZStackPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackPadding.swift; sourceTree = "<group>"; };
 		7140FB1E28CEBFD0007B5DC6 /* DemoUIFirstTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoUIFirstTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7140FB2128CEBFD0007B5DC6 /* DemoUIFirstTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUIFirstTutorialApp.swift; sourceTree = "<group>"; };
 		7140FB2328CEBFD0007B5DC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				7140FB2F28CEC27E007B5DC6 /* variablesPrimerTutorial.playground */,
 				7142EEC428FE3ECE0033E95A /* TestFields.swift */,
 				7142EEC628FE48B10033E95A /* Dividers.swift */,
+				711BA73E28FF8EC600C86CF4 /* HStackVStackSpacer.swift */,
+				713176512900DF41005D34E8 /* ZStackPadding.swift */,
 			);
 			path = DemoUIFirstTutorial;
 			sourceTree = "<group>";
@@ -154,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713176522900DF41005D34E8 /* ZStackPadding.swift in Sources */,
 				7140FB2428CEBFD0007B5DC6 /* ContentView.swift in Sources */,
 				7142EEC728FE48B10033E95A /* Dividers.swift in Sources */,
 				71AC58C228EA6C8B0080F808 /* Modifiers.swift in Sources */,
+				711BA73F28FF8EC600C86CF4 /* HStackVStackSpacer.swift in Sources */,
 				7140FB2228CEBFD0007B5DC6 /* DemoUIFirstTutorialApp.swift in Sources */,
 				71AC58C428EA6EF20080F808 /* ButtonsTutorial.swift in Sources */,
 				7142EEC528FE3ECE0033E95A /* TestFields.swift in Sources */,
